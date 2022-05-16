@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 15px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 600px){
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar a{
+        margin: 10px;
+        padding: 5px;
+    }
+   
+}
+
+header {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.maritimeinjurycenter.com%2Fwp-content%2Fuploads%2F2016%2F03%2F274406879-e1464791621506.jpg&f=1&nofb=1");
+    position: relative;
+    /* bottom: 175px; */
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 0;
+}
+
+header h1 {
+    color: rgb(209, 139, 8);
+    font-size: 5rem;
+    /* margin-top: 15%; */
+    padding-top: 15%;
+    text-shadow: 1px 2px white;
+}
+
+header h1 span {
+    color: black;
+}
+
+@media (max-width: 400px){
+    header h1 {
+        font-size: 3rem;
+    }
+}
+
+#features{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    padding-top: 35px;
+}
+
+.col-lg-4 {
+    padding: 10px;
+}
+
+
+.col-lg-4 a {
+    text-decoration: none;
+    color:rgb(209, 139, 8);
+}
+
+.col-lg-4 a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.beach-pic {
+    height: 500px;
+    width: 50vw;
+}
+
+#pictures{
+    text-align: center;
+    
+}
+
+.beach-side{
+    padding-top: 30px;
+}
+
+.beach-side p {
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: white;
+
+}
+
+.foot-icon {
+    padding: 15px;
+}
