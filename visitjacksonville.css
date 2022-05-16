@@ -115,3 +115,9 @@ footer {
 .foot-icon {
     padding: 15px;
 }
+
+@media (max-width: 991px){
+    .beach-pic{
+        width: 100vw;
+    }
+}
